@@ -10,6 +10,11 @@ dependencies:
   cache_directories:
     - ~/.cache/yarn
 
+compile:
+  override:
+    - yarn run build:prod
+
 test:
   override:
     - yarn test -- --single-run
+    - yarn lint

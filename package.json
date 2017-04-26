@@ -1,11 +1,13 @@
 {
   "name": "angular-experiments",
   "version": "0.0.0",
-  "license": "MIT",
+  "license": "",
+  "author": "Matt Morris <matt.m.morris0@gmail.com",
   "scripts": {
     "ng": "ng",
     "start": "ng serve",
     "build": "ng build",
+    "build:prod": "ng build -prod -aot",
     "test": "ng test",
     "lint": "ng lint",
     "e2e": "ng e2e"
