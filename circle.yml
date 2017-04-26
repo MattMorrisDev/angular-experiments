@@ -16,5 +16,6 @@ compile:
 
 test:
   override:
-    - yarn test -- --single-run
+    - yarn run test:ci
+    - yarn run coveralls
     - yarn lint
