@@ -3,6 +3,8 @@ machine:
     version: 6.9.5
   environment:
     PATH: "${PATH}:${HOME}/${CIRCLE_PROJECT_REPONAME}/node_modules/.bin"
+    COVERALLS_SERVICE_NAME: CircleCI
+    COVERALLS_REPO_TOKEN: $COVERALLS_REPO_TOKEN
 
 dependencies:
   override:
