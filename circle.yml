@@ -21,4 +21,5 @@ test:
     #    - yarn run e2e
     - yarn run test:ci
     - yarn run coveralls
+    - yarn run codecov
     - yarn lint
