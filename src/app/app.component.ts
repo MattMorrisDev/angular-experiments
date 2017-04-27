@@ -7,8 +7,4 @@ import { Component } from '@angular/core';
 })
 export class AppComponent {
    title = 'app works!';
-
-   doThing() {
-      console.log('Doing Thing');
-   }
 }
