@@ -27,4 +27,4 @@ test:
 
 deployment:
   override:
-    - firebase deploy --token $FIREBASE_TOKEN
+    - if [ $CIRCLE_BRANCH == "master" ]; then firebase deploy --token $FIREBASE_TOKEN; fi
