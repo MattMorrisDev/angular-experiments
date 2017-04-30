@@ -42,3 +42,4 @@ testem.log
 Thumbs.db
 
 angular-experiments.iml
+/functions/node_modules/

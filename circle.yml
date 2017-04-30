@@ -15,6 +15,7 @@ dependencies:
 compile:
   override:
     - yarn run build:prod
+    - yarn run install-firebase-functions
 
 test:
   override:
@@ -23,3 +24,7 @@ test:
     - yarn run coveralls
     - yarn run codecov
     - yarn lint
+
+deployment:
+  override:
+    - if [ $CIRCLE_BRANCH == "master" ]; then firebase deploy --token $FIREBASE_TOKEN; fi
