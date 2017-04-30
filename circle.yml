@@ -23,3 +23,7 @@ test:
     - yarn run coveralls
     - yarn run codecov
     - yarn lint
+
+deployment:
+  override:
+    - firebase deploy --token $FIREBASE_TOKEN
