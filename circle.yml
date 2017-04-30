@@ -15,6 +15,7 @@ dependencies:
 compile:
   override:
     - yarn run build:prod
+    - yarn run install-firebase-functions
 
 test:
   override:
