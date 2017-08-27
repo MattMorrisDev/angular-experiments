@@ -13,7 +13,7 @@
     "test:ci": "ng test --watch=false --code-coverage",
     "coveralls": "cat coverage/lcov.info | coveralls",
     "codecov": "codecov",
-    "lint": "ng lint",
+    "lint": "ng lint --type-check",
     "e2e": "ng e2e"
   },
   "private": true,
