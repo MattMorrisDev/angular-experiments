@@ -13,7 +13,7 @@
     "test:ci": "ng test --watch=false --code-coverage",
     "coveralls": "cat coverage/lcov.info | coveralls",
     "codecov": "codecov",
-    "bundlesize": "bundlesize -f dist/*.js -s 20kB",
+    "bundlesize": "bundlesize",
     "lint": "ng lint --type-check",
     "e2e": "ng e2e"
   },
@@ -53,5 +53,23 @@
     "ts-node": "~3.3.0",
     "tslint": "~5.7.0",
     "typescript": "~2.4.1"
-  }
+  },
+  "bundlesize": [
+    {
+      "path": "./dist/main.*.js",
+      "maxSize": "70 kB"
+    },
+    {
+      "path": "./dist/inline.*.js",
+      "maxSize": "1 kB"
+    },
+    {
+      "path": "./dist/polyfills.*.js",
+      "maxSize": "21 kB"
+    },
+    {
+      "path": "./dist/?(1|2|3|4|6|7|8|9|0).*.js",
+      "maxSize": "5 kB"
+    }
+  ]
 }
