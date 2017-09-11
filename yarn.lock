@@ -1122,9 +1122,9 @@ codecov@^2.1.0:
     request "2.79.0"
     urlgrey "0.4.4"
 
-codelyzer@~3.1.2:
-  version "3.1.2"
-  resolved "https://registry.yarnpkg.com/codelyzer/-/codelyzer-3.1.2.tgz#9ff1f041fb9b5ee5dbeb45ba866dfaf04983af04"
+codelyzer@3.2.0:
+  version "3.2.0"
+  resolved "https://registry.yarnpkg.com/codelyzer/-/codelyzer-3.2.0.tgz#68eb0a67771ea73006b517053c3035c1838abf14"
   dependencies:
     app-root-path "^2.0.1"
     css-selector-tokenizer "^0.7.0"
