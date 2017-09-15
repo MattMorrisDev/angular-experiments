@@ -85,9 +85,9 @@
   optionalDependencies:
     node-sass "^4.3.0"
 
-"@angular/common@5.0.0-beta.4":
-  version "5.0.0-beta.4"
-  resolved "https://registry.yarnpkg.com/@angular/common/-/common-5.0.0-beta.4.tgz#ceba2a572f7733206a292ca18b7ad8d7d0030e43"
+"@angular/common@5.0.0-beta.7":
+  version "5.0.0-beta.7"
+  resolved "https://registry.yarnpkg.com/@angular/common/-/common-5.0.0-beta.7.tgz#d5a77a7bea1943296cff08a9ff60ebcbfb58ad8b"
   dependencies:
     tslib "^1.7.1"
 
