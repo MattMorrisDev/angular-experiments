@@ -69,7 +69,7 @@
     },
     {
       "path": "./dist/polyfills.*.js",
-      "maxSize": "21 kB"
+      "maxSize": "22 kB"
     }
   ]
 }
