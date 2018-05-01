@@ -43,7 +43,7 @@
     "@types/node": "~8.0.25",
     "codecov": "^2.1.0",
     "codelyzer": "~4.0.0",
-    "coveralls": "^2.13.0",
+    "coveralls": "^3.0.1",
     "firebase-tools": "^3.6.1",
     "jasmine-core": "~2.8.0",
     "jasmine-spec-reporter": "~4.2.1",
