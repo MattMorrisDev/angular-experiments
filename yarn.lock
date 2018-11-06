@@ -33,11 +33,13 @@
   dependencies:
     tslib "^1.7.1"
 
-"@angular/cdk@5.2.0":
-  version "5.2.0"
-  resolved "https://registry.yarnpkg.com/@angular/cdk/-/cdk-5.2.0.tgz#4368f6749e915cdcc75d325ae33fdb3f85a88108"
+"@angular/cdk@7.0.3":
+  version "7.0.3"
+  resolved "https://registry.yarnpkg.com/@angular/cdk/-/cdk-7.0.3.tgz#6f6ca3203470dfa91858a421d72c8e41765644e5"
   dependencies:
     tslib "^1.7.1"
+  optionalDependencies:
+    parse5 "^5.0.0"
 
 "@angular/cli@1.7.0-beta.1":
   version "1.7.0-beta.1"
@@ -146,9 +148,9 @@
   version "6.0.0-beta.3"
   resolved "https://registry.yarnpkg.com/@angular/language-service/-/language-service-6.0.0-beta.3.tgz#d001cb498464a0bb2dbccebbabd6404c06c1f7d5"
 
-"@angular/material@5.2.0":
-  version "5.2.0"
-  resolved "https://registry.yarnpkg.com/@angular/material/-/material-5.2.0.tgz#8599e3149d48487e3e92e941fa9dc55176e3a0cf"
+"@angular/material@7.0.3":
+  version "7.0.3"
+  resolved "https://registry.yarnpkg.com/@angular/material/-/material-7.0.3.tgz#81df814ab4da7df4f0f7241852950795936d3cd5"
   dependencies:
     tslib "^1.7.1"
 
@@ -5980,6 +5982,10 @@ parse-json@^2.1.0, parse-json@^2.2.0:
   resolved "https://registry.yarnpkg.com/parse-json/-/parse-json-2.2.0.tgz#f480f40434ef80741f8469099f8dea18f55a4dc9"
   dependencies:
     error-ex "^1.2.0"
+
+parse5@^5.0.0:
+  version "5.1.0"
+  resolved "https://registry.yarnpkg.com/parse5/-/parse5-5.1.0.tgz#c59341c9723f414c452975564c7c00a68d58acd2"
 
 parseqs@0.0.5:
   version "0.0.5"
