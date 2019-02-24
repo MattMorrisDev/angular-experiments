@@ -3,3 +3,7 @@
 
 
 [![Greenkeeper badge](https://badges.greenkeeper.io/MattMorrisDev/angular-experiments.svg)](https://greenkeeper.io/)
+
+
+
+I was using this to try out random angular things in the early days of Angular 2. This repo is basically dead now. 
